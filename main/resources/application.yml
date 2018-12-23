@@ -8,4 +8,11 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/easylife94/pay-config
+          uri: https://gitee.com/chenwee/pay-config.git
+          username: cw961590280@hotmail.com
+          password: cw438171439
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://pay-eureka-server:8761/eureka

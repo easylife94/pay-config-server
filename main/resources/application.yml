@@ -15,8 +15,10 @@ eureka:
   client:
     service-url:
       defaultZone: http://pay-eureka-server:8761/eureka
-management:
-  endpoints:
-    web:
-      exposure:
-        exclude: "*"
+  instance:
+    hostname: pay-config-server
+#management:
+#  endpoints:
+#    web:
+#      exposure:
+#        exclude: "*"

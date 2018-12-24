@@ -1,4 +1,4 @@
-package java.com.pay.config.server;
+package com.pay.config.server;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

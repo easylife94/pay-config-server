@@ -8,9 +8,9 @@ spring:
     config:
       server:
         git:
-          uri: https://gitee.com/chenwee/pay-config.git
-          username: cw961590280@hotmail.com
-          password: cw438171439
+          # uri: https://xx.com/foo/pay-config.git
+          # username: xxx@cc.com
+          # password: xxxxxxx
 eureka:
   client:
     service-url:
